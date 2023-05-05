@@ -3,22 +3,10 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '.github/**'
-      - '.gitignore'
-      - 'LICENSE.md'
-      - 'CHANGELOG.md'
-      - 'manifest.yml'
-      - 'README.md'
-      - 'scripts/**'
-      - 'skill/**'
-      - '__init__.py'
-      - 'config.py'
-      - 'mysql_client.py'
-      - 'requirements.txt'
-      - 'settingsmeta.yaml'
-      - 'setup.py'
-      - 'version.py'
+    paths:
+      - 'locale/**'
+      - 'dialog/**'
+      - 'vocab/**'
   workflow_dispatch:
 
 jobs:

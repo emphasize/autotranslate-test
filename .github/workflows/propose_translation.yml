@@ -49,7 +49,7 @@ jobs:
         commit-message: autotranslate
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         title: Proposed ${{ inputs.language }} Translations
-        body: Tranlations for review
+        body: Translations for review
         labels: translation
         branch: staging/translation_${{ inputs.language }}
         reviewers: emphasize
